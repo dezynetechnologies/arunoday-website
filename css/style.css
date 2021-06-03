@@ -1,0 +1,505 @@
+@media screen and (max-width: 1100px) {
+	nav {
+		width: 100%;
+	}
+	nav #donate{
+		width: 100%;
+	}
+	#deskcaro ul li{
+		width: 100%;
+	}
+	#about #col{
+		display: none;
+	}
+	#contain2{
+		background-image: linear-gradient(to bottom right , rgba(53,148,92,0.233),green,rgba(68,22,99,0.459),yellow);
+	}
+	
+}
+
+@media screen and (min-width: 780px) {
+	
+	nav {
+		display: none;
+	}
+}
+	
+
+
+
+body{
+			background-color: white;
+			font-family: 'Arvo', serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+		}
+#topbar.scrolled{
+	background-color: blue;
+}
+#topbar{
+	background: rgb(139,128,196);
+background: linear-gradient(32deg, rgba(139,128,196,1) 0%, rgba(20,78,160,1) 100%);
+}
+#topbar  li button{
+	display: inline-block;
+	
+}
+#topbar button a{
+	color: white;
+}
+#topbar button:hover a{
+	color: black;
+}
+#topbar button{
+	border: 1px solid white;
+	font-weight: bold;
+	
+	background-color: transparent;
+	font-size: 13px;
+	
+	cursor: pointer;
+	transition: 0.6s ease-in-out;
+}
+#topbar button:hover{
+	box-shadow: inset 400px 0 0 0 white;
+	color:black;
+	font-weight: bold;
+}
+		#deskcaro img{
+			width: 100%;
+			height: 580px;
+			
+		}
+#navbar{
+background: #443e62;
+	color:black;
+}
+#navbar .logo{
+	font-size: 15px;
+	font-weight: bold;
+}
+#navbar  button{
+	background: linear-gradient(134deg, rgba(169,158,224,1) 5%, rgba(68,62,98,1) 99%);
+	border:0px solid transparent;
+}
+#navbar  #toggler{
+	background: red;
+	border:0px solid transparent;
+	
+}
+#navbar a{
+	color: white;
+}
+.modal fade{
+	background-color: aqua;
+}
+/*navbar*/
+#navbar{
+			margin-top: 46px;
+		}
+
+		#navbar ul li{
+			padding: 17px;
+		}
+		#navbar img{
+			width: 115px;
+			margin-left: -33px;
+		}
+#navbar ul li ul li {
+	background: #443e62;
+	
+}
+#navbar ul li ul li :hover{
+	background: #443e62;
+}
+#navbar ul li ul li a {
+	color: white;
+	border:0px solid transparent;
+}
+#navbar button{
+	background-color: red;
+}
+
+/*navbar*/
+
+.parallax button{
+	background: linear-gradient(134deg, rgba(169,158,224,1) 5%, rgba(68,62,98,1) 99%);
+	border:0px solid transparent;
+	color: red;
+}
+
+/*carosel desktop view*/
+#deskcaro{
+	background-image: linear-gradient(to bottom right , rgba(53,148,92,0.233),green,rgba(68,22,99,0.459),yellow);
+	//margin-top: -556px;
+	height: 600px;
+	margin: 0px;
+	padding: 0px;
+		
+}
+#deskcaro img{
+	display: inline-block;
+}
+#deskcaro ul {
+		margin-top: -519px;
+	}
+#deskcaro #containhead{
+	width: auto;
+}
+#deskcaro #deskcarocol ul{
+	width: 62%;
+	
+			
+			background-image: linear-gradient(to bottom right , rgba(53,148,92,0.233),green,rgba(68,22,99,0.459),yellow);
+}
+#deskcaro ul li{
+	
+			border-color: transparent;
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+}
+		#deskcaro h3{
+			font-size: 40px;
+			
+			border:1px solid white;
+		}
+
+#deskcaro img{
+	height: 600px;
+}
+	/*desktop carosel*/	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		#contain2{
+			
+			background-image: linear-gradient(to bottom right , rgba(53,148,92,0.233),green,rgba(68,22,99,0.459),yellow);
+			background-size: cover;
+			color: white;
+			background-attachment: fixed;
+		}
+#contain2  button{
+	border-top: white 3px solid;
+	border-bottom: white 3px solid;
+	margin-bottom: 99px;
+	//background-color: red;
+	//padding: 20px;
+}
+#contain2 p{
+	margin-top: -95px;
+}
+#contain2  button:active{
+	border:7px solid transparent;
+	transition: 0s;
+}
+#contain2 #read{
+	color: white;
+	font-weight: bold;
+	border:0px solid transparent;
+	background: linear-gradient(134deg, rgba(169,158,224,1) 5%, rgba(68,62,98,1) 99%);
+	font-size: 13px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: 0.6s ease-in-out;
+}
+#contain2 #read:hover{
+	box-shadow: inset 400px 0 0 0 white;
+	color:black;
+	font-weight: bold;
+}
+		#contain2 h3{
+			font-size: 40px;
+			
+			//border:1px solid white;
+		}
+		#contain3{
+			height: auto;
+			background-color: whitesmoke;
+			margin-top: -52px;
+		}
+		#contain3 .card{
+			margin-top: 22px;
+		}
+#contain3 .card a{
+	background: rgb(169,158,224);
+background: linear-gradient(134deg, rgba(169,158,224,1) 5%, rgba(68,62,98,1) 99%);
+	color:white;
+	border-color: transparent;
+	text-decoration: none;
+	border-radius: 5px;
+}
+#need{
+	margin-top: -22px;
+	
+}
+		
+		#scroll{
+			position: fixed;
+			bottom: 18px;
+			right: 20px;
+			background-color: green;
+padding: 11px;
+		}
+/*   team */
+
+
+#breadcrumb{
+	height: 300px;
+		background-image: linear-gradient(to bottom right , rgba(53,148,92,0.233),green,rgba(68,22,99,0.459),yellow);
+}
+#breadcrumb #breadcrumbrow{
+	height: 300px;
+}
+#breadcrumb #breadcrumbrow h2{
+	padding-top: 93px;
+	font-size: 55px;
+}
+#breadcrumb a {
+justify-content: center;
+	align-items: center;
+	color: white;
+	display: inline-block;
+	padding: 0;
+}
+#teamwrapper{
+	background-color: whitesmoke;
+}
+#teamwrapper #teamcol{
+	background-color: whitesmoke;
+	transition: 0.9s all;
+}
+#teamwrapper #teamcol:hover{
+	background: #dfe4ea;
+	//box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 50px;
+}
+#teamwrapper #teamcol .card{
+	
+	border:0px solid transparent;
+}
+#teamwrapper #teamcol .card .card-footer{
+	
+	background-color: transparent;
+	border:0px solid transparent;
+}
+#teamwrapper #teamcol img{
+	width: 100%;
+ height:333px;
+	border-radius: 50%;
+}
+#teamwrapper #teamcol .lastsir{
+	width: 100%;
+ height:333px;
+	border-radius: 50%;
+}
+/* about*/
+#about #col{
+	height: auto;
+	border-color: transparent;
+}
+#about #card1{
+	height: 466px;
+	background-image: url(../pics/carousel/Teachers%5B1%5D.jpg);
+	border-color: transparent;
+	background-size: cover;
+	border: 0px solid transparent;
+}
+/* donation*/
+
+
+#donation{
+	height: auto;
+	background-color: whitesmoke;
+}
+#donation #pic{
+	background-color: orange;
+	height: 500px;
+}
+#donation #detail{
+	
+	height: auto;
+}
+#donation #detail h2{
+	font-size: 44px;
+}
+#donation #detail ul li{
+	font-size: 23px;
+	
+	list-style-type: none;
+}
+#donation #detail span{
+	font-size: 21px;
+}
+#disclaimer{
+	background-color: whitesmoke;
+}
+/*contact*/
+
+#contact{
+	height: auto;
+	background-color: whitesmoke;
+}
+#contact #col{
+	height: auto;
+}
+#contact #col ul li{
+	font-size: 24px;
+	//background-color: transparent;
+	//border-color: transparent;
+}
+ #contact #map{
+	background-color: whitesmoke;
+}
+		#footer{
+				background-color: #3e3e3c;
+			margin-top: 0px;
+			height: auto;
+			}
+		#footer i{
+			width: 40px;
+			font-size: 33px;
+			padding-top: 20px;
+			text-align: center;
+			color:white;
+		}
+
+#scroll{
+	height: 55px;
+background: rgb(169,158,224);
+background: linear-gradient(134deg, rgba(169,158,224,1) 5%, rgba(68,62,98,1) 99%);
+}
+#reaches{
+	height: auto;
+	background-image: linear-gradient(to bottom right , rgba(53,148,92,0.233),green,rgba(68,22,99,0.459),yellow);
+}
+#reaches #reachesrow {
+	height: auto;
+}
+#reaches #reachesrow #reachescol{
+	height: auto;
+}
+
+/*school*/
+
+#school{
+	height: auto;
+	background-color: whitesmoke;
+	margin-top: -1%;
+}
+#school button{
+	
+
+	border-top: black 3px solid;
+	border-bottom: black 3px solid;
+	
+	//background-color: red;
+}
+#school button h3{
+	
+
+	font-size: 45px;
+}
+#school .card{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom right , rgba(53,148,92,0.233),green,rgba(68,22,99,0.459),yellow);
+	border:0px solid transparent;
+}
+#school .card .card-header{
+	background-color: transparent;
+	border-color: transparent;
+}
+#school .card .card-header h3{
+	padding-top: 27px;
+	color:white;
+}
+#school .card  p{
+	text-align: justify;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*school*/
+#footer button{
+	background: linear-gradient(134deg, rgba(169,158,224,1) 5%, rgba(68,62,98,1) 99%);
+	border:0px solid transparent;
+	color: white;
+}
+.modl .myModal{
+	
+	//margin-top: 36%;
+	//width: 113%;
+	position: relative;
+}
+.modl .myModal ul {
+	//background-color: red;
+	margin-bottom: 0;
+}
+.modl .myModal ul li{
+	
+}
+.modl .myModal button{
+	top:1%;
+	position: absolute;
+	right: 12%;
+}
+.modl .myModal p{
+	font-size: 14px;
+}
+/*  */
+
+#modal1 ul li{
+	
+	border:0px solid transparent;
+}
+#modal1 .modal-footer button{
+	background: linear-gradient(134deg, rgba(169,158,224,1) 5%, rgba(68,62,98,1) 99%);
+	border:0px solid transparent;
+	color:white;
+	
+}
